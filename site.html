@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website for Jack P. Ryan.">
+    <title>Jack P. Ryan | Welcome</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --dark-bg: #121212; /* Very dark grey, almost black */
+            --primary-text: #E0E0E0; /* Light grey for readability */
+            --secondary-text: #BDBDBD; /* Slightly darker grey */
+            --purple-gradient: linear-gradient(90deg, #8A2BE2, #4B0082); /* BlueViolet to Indigo */
+            --highlight-purple: #9370DB; /* Medium Purple */
+        }
+
+        /* --- General Styles --- */
+        body {
+            background-color: var(--dark-bg);
+            color: var(--primary-text);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* --- Typography --- */
+        h1, h2 {
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            /* Gradient Text Effect */
+            background: var(--purple-gradient);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: var(--highlight-purple);
+            border-bottom: 2px solid var(--highlight-purple);
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+        }
+
+        p {
+            color: var(--secondary-text);
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--highlight-purple);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary-text);
+        }
+
+        /* --- Header & Footer --- */
+        header {
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: var(--primary-text);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+            color: var(--secondary-text);
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Jack P. Ryan</h1>
+            <p>Innovator & Creator</p>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+                </p>
+                <p>
+                    Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
+                </p>
+            </section>
+
+            <section id="projects">
+                <h2>My Work</h2>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                </p>
+                <p>
+                    Learn more by visiting my <a href="#">project gallery</a> or my <a href="#">GitHub profile</a>.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 jackpatryan.com | All Rights Reserved</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
